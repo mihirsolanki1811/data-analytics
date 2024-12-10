@@ -13,9 +13,7 @@ Descriptive analysis revealed that 58.5% of violations occurred under bylaw 2849
 
 
 
-# PROJECT 2
-
-# Data Analytic Platform for Parking Tickets: Exploratory Analysis
+# PROJECT 2 Data Analytic Platform for Parking Tickets: Exploratory Analysis
 # Project Overview
 The exploratory analysis aimed to identify relationships between bylaw and section violations on specific streets in Vancouver. Using the same cleaned dataset from descriptive analysis, the project examined patterns of bylaw breaches and section violations across different locations. This analysis helps understand whether citizens frequently violate specific bylaws or a broader range of rules.
 
