@@ -11,10 +11,11 @@ Descriptive Analysis Insight :Descriptive analysis revealed that 58.5% of violat
 
 
 # PROJECT 2 Data Analytic Platform for Parking Tickets: Exploratory Analysis
+<img width="1140" alt="gif2" src="https://github.com/user-attachments/assets/1f6b071f-c081-4074-821d-954a7025e10b">
 Project Overview: The exploratory analysis aimed to identify relationships between bylaw and section violations on specific streets in Vancouver. Using the same cleaned dataset from descriptive analysis, the project examined patterns of bylaw breaches and section violations across different locations. This analysis helps understand whether citizens frequently violate specific bylaws or a broader range of rules.
 
 Data Pipeline Design: The ETL pipeline utilized AWS Glue to compute distinct bylaw and section violations per street. Two datasets were derived from the clean dataset: one for bylaw violations and another for section violations. Tools like aggregate functions, schema changes, and outer joins were used to integrate these datasets, summarizing violation patterns for each street. The results were stored in S3 for further use.
-
+<img width="1338" alt="gif-3" src="https://github.com/user-attachments/assets/ddfcf1e5-6948-44f3-9e1b-4de11c075fd9">
 Key Insights: The analysis revealed that Hornby Street had violations under two bylaws and six sections, while West 8th Avenue saw violations under two bylaws and five sections. These insights can guide resource allocation, inform policy adjustments, and help promote compliance through community engagement and targeted awareness campaigns.
 
 
