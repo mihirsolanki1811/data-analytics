@@ -1,5 +1,5 @@
 # data-analytics
-# PROJECT 1
+# PROJECT 1 Data Analytic Platform for Parking Tickets: Descriptive Analysis
 
 # Project Overview <img width="1038" alt="git1" src="https://github.com/user-attachments/assets/542bce8a-0872-4470-bccd-b8b765289a8f">
 
