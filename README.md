@@ -21,7 +21,7 @@ Key Insights: The analysis revealed that Hornby Street had violations under two 
 # Project 3 Policy 8000p evaluation used financial aid for professional development
 Business Case
 The current level of financial aid performance for professional development needs to be evaluated to ensure alignment with HR's growth and development objectives. Specifically, the analysis focuses on understanding the financial aid approval rate for professional development across different professional levels of University Canada West (UCW) candidates. This insight will help HR refine resource allocation and address potential gaps in professional development funding.
-
+<https://github.com/mihirsolanki1811/data-analytics/issues/3#issue-2732305015>
 Data Analytics Case
 The key objective is to determine the Financial Aid Approval Rate across professional levels and departments. The metric used to measure this is:
 
