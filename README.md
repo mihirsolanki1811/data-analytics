@@ -18,6 +18,48 @@ Data Pipeline Design: The ETL pipeline utilized AWS Glue to compute distinct byl
 <img width="1338" alt="gif-3" src="https://github.com/user-attachments/assets/ddfcf1e5-6948-44f3-9e1b-4de11c075fd9">
 Key Insights: The analysis revealed that Hornby Street had violations under two bylaws and six sections, while West 8th Avenue saw violations under two bylaws and five sections. These insights can guide resource allocation, inform policy adjustments, and help promote compliance through community engagement and targeted awareness campaigns.
 
+# Project 3 Policy 8000p evaluation used financial aid for professional development
+Business Case
+The current level of financial aid performance for professional development needs to be evaluated to ensure alignment with HR's growth and development objectives. Specifically, the analysis focuses on understanding the financial aid approval rate for professional development across different professional levels of University Canada West (UCW) candidates. This insight will help HR refine resource allocation and address potential gaps in professional development funding.
+
+Data Analytics Case
+The key objective is to determine the Financial Aid Approval Rate across professional levels and departments. The metric used to measure this is:
+
+Financial Aid Approval Rate (%) = 
+Approved Candidates
+Total Candidates
+×
+100
+Total Candidates
+Approved Candidates
+​
+ ×100
+
+Additionally, the study evaluates how much grant is approved per candidate from different departments to assess fairness and growth support across the organization.
+
+AWS Procedures and Results
+Data Ingestion
+
+The raw dataset containing financial aid requests and approvals was ingested into AWS S3.
+Data was secured with encryption, versioning, and access controls to ensure privacy.
+Data Profiling and Cleaning
+
+AWS Glue DataBrew was used for profiling the dataset, revealing completion rates and missing entries.
+Missing values in key fields like department, approval status, and grant amount were addressed, and unnecessary columns were dropped.
+ETL Pipeline for Metric Calculation
+
+S3: Loaded cleaned dataset for processing.
+Schema Changes: Dropped irrelevant fields such as request timestamps and comments.
+Aggregate Functions: Computed total and approved candidates for each professional level and department.
+Derived Columns: Calculated the financial aid approval rate and average grant amount per candidate.
+Join Operations: Combined departmental grant data with candidate-level data for cross-analysis.
+Storage: Final results were saved in S3 in CSV and Parquet formats for visualization.
+Results
+
+Financial Aid Approval Rate: The overall approval rate was computed for different professional levels, revealing higher approval rates for senior-level staff compared to entry-level candidates.
+Grant Amount per Candidate: Average grant distribution showed significant variation across departments, with the Research and Development team receiving the highest grants per candidate.
+
+
 
 
 
