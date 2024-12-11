@@ -18,22 +18,14 @@ Data Pipeline Design: The ETL pipeline utilized AWS Glue to compute distinct byl
 <img width="1338" alt="gif-3" src="https://github.com/user-attachments/assets/ddfcf1e5-6948-44f3-9e1b-4de11c075fd9">
 Key Insights: The analysis revealed that Hornby Street had violations under two bylaws and six sections, while West 8th Avenue saw violations under two bylaws and five sections. These insights can guide resource allocation, inform policy adjustments, and help promote compliance through community engagement and targeted awareness campaigns.
 
-# Project 3 Policy 8000p evaluation used financial aid for professional development
+# Project 3 Policy 8000p, evaluation of financial aid for professional development
 Business Case
 The current level of financial aid performance for professional development needs to be evaluated to ensure alignment with HR's growth and development objectives. Specifically, the analysis focuses on understanding the financial aid approval rate for professional development across different professional levels of University Canada West (UCW) candidates. This insight will help HR refine resource allocation and address potential gaps in professional development funding.
 <img width="1228" alt="Screenshot 2024-12-11 at 1 02 09 AM" src="https://github.com/user-attachments/assets/8d5d4bbe-6477-437f-b35f-1d742cbd03b0">
 Data Analytics Case
 The key objective is to determine the Financial Aid Approval Rate across professional levels and departments. The metric used to measure this is:
 
-Financial Aid Approval Rate (%) = 
-Approved Candidates
-Total Candidates
-×
-100
-Total Candidates
-Approved Candidates
-​
- ×100
+Financial Aid Approval Rate (%) = (Approved Candidates / Total Candidates) × 100
 
 Additionally, the study evaluates how much grant is approved per candidate from different departments to assess fairness and growth support across the organization.
 
