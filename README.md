@@ -1,6 +1,6 @@
 # data-analytics
 # PROJECT 1 Data Analytic Platform for Parking Tickets: Descriptive Analysis
-<img width="1038" alt="git1" src="https://github.com/user-attachments/assets/542bce8a-0872-4470-bccd-b8b765289a8f">
+<img width="1048" alt="Screenshot 2024-12-11 at 3 17 05 PM" src="https://github.com/user-attachments/assets/5dfae090-9c3c-42e0-b962-d37fbb6bcbad" />
 
 OVerview : This project demonstrates the implementation of a data analytic platform for Vancouver's parking ticket data using AWS services. The dataset, sourced from Vancouver City's open data library, contains records filtered to 471 entries for focused analysis. The goal is to understand patterns and trends in parking violations and inform city council and traffic department decisions. The data was ingested into AWS S3, where encryption, versioning, and access constraints ensured secure storage. AWS Glue DataBrew was employed for data profiling, cleaning, and preparation, resulting in a refined dataset ready for analysis.
 
