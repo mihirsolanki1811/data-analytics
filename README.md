@@ -25,12 +25,12 @@ The ETL pipeline utilized AWS Glue to compute distinct bylaw and section violati
 ## Key Insights 
 The analysis revealed that Hornby Street had violations under two bylaws and six sections, while West 8th Avenue saw violations under two bylaws and five sections. These insights can guide resource allocation, inform policy adjustments, and help promote compliance through community engagement and targeted awareness campaigns.
 
-# Project 3 AWS VPC Design for Financial Grant Management System
+# Project 3 AWS VPC design for financial grant management system
 ## Project Overview
 This project focuses on creating an AWS Virtual Private Cloud (VPC) named HR-Finance to manage professional development grants for students and internal financial operations. The infrastructure comprises public and private subnets, enabling secure data ingestion, processing, and storage workflows.
 
 The system ensures seamless public access for students to file grant requests while safeguarding sensitive data and approval workflows in a private subnet. It uses S3 endpoints for efficient and secure data transfer to an S3 bucket designed for storing financial grant information.
-
+<img width="1279" alt="Screenshot 2024-12-13 at 9 11 51 PM" src="https://github.com/user-attachments/assets/8c3402f8-0b3f-4720-9c97-58dd0f38c7a3" />
 ## VPC Design
 VPC Name: HR-Finance
 ### Subnets:
