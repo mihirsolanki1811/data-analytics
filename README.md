@@ -25,7 +25,50 @@ The ETL pipeline utilized AWS Glue to compute distinct bylaw and section violati
 ## Key Insights 
 The analysis revealed that Hornby Street had violations under two bylaws and six sections, while West 8th Avenue saw violations under two bylaws and five sections. These insights can guide resource allocation, inform policy adjustments, and help promote compliance through community engagement and targeted awareness campaigns.
 
-# Project 3 Policy 8000p, evaluation of financial aid for professional development
+# Project 3 AWS VPC Design for Financial Grant Management System
+## Project Overview
+This project focuses on creating an AWS Virtual Private Cloud (VPC) named HR-Finance to manage professional development grants for students and internal financial operations. The infrastructure comprises public and private subnets, enabling secure data ingestion, processing, and storage workflows.
+
+The system ensures seamless public access for students to file grant requests while safeguarding sensitive data and approval workflows in a private subnet. It uses S3 endpoints for efficient and secure data transfer to an S3 bucket designed for storing financial grant information.
+
+## VPC Design
+VPC Name: HR-Finance
+### Subnets:
+Public Subnet:
+Purpose: Enables public interaction for grant application.
+Components:
+#### Web Servers:
+Request Ingestion Server: Handles grant request submissions from students.
+Approval Storage Server: Logs and stores approval data.
+#### Access Control: Internet-facing to allow access for students.
+### Private Subnet:
+Purpose: Hosts internal platforms for website operations and grant-related applications.
+Access Control: Restricted to internal data team only.
+
+# Workflow
+1) Grant Filing by Students
+Students submit grant applications via the request ingestion web server in the public subnet.
+Applications are validated through a Network Access Control Point for secure data routing.
+2) Approval Workflow
+Grant approvals are logged and stored on the approval storage web server in the public subnet.
+3) Data Processing
+The private subnet hosts internal platforms for managing grants, accessible exclusively to the data team.
+Applications and approvals are processed securely within the private subnet.
+4) Data Storage
+All grant-related data is routed from the public web server to an S3 bucket via an S3 endpoint for secure storage.
+The S3 bucket serves as the centralized repository for financial grant data.
+
+# Key AWS Components
+VPC: Custom VPC designed to support both public and private subnets.
+Subnets: Public Subnet: Accessible to external users (students). Private Subnet: Isolated for internal use by the data team.
+Web Servers: Request Ingestion Server: Captures grant applications. Approval Storage Server: Logs approval data securely.
+Network Access Control Point: Ensures secure data transfer from public servers to the private subnet.
+S3 Endpoint: Direct data transfer from web servers to the S3 bucket, minimizing latency and enhancing security.
+S3 Bucket: Securely stores all financial grant data, accessible for reporting and further analytics.
+
+
+
+# Project 4 Policy 8000p, evaluation of financial aid for professional development
 ## Business Case
 The current level of financial aid performance for professional development needs to be evaluated to ensure alignment with HR's growth and development objectives. Specifically, the analysis focuses on understanding the financial aid approval rate for professional development across different professional levels of University Canada West (UCW) candidates. This insight will help HR refine resource allocation and address potential gaps in professional development funding.
 <img width="1228" alt="Screenshot 2024-12-11 at 1 02 09 AM" src="https://github.com/user-attachments/assets/8d5d4bbe-6477-437f-b35f-1d742cbd03b0">
@@ -61,7 +104,7 @@ Results
 The overall approval rate was computed for different professional levels, revealing higher approval rates for senior-level staff compared to entry-level candidates.
 Grant Amount per Candidate: Average grant distribution showed significant variation across departments, with the Research and Development team receiving the highest grants per candidate.
 
-# Project 4 Predicting Shipping Delays with AWS SageMaker Canvas
+# Project 5 Predicting Shipping Delays with AWS SageMaker Canvas
 
 # Project Overview
 This project aims to predict expected shipping delays using AWS SageMaker Canvas, leveraging real-world data sourced from traffic internet systems. The data is ingested via a public subnet and securely stored in an AWS S3 bucket for further analysis. By building a machine learning model, the project seeks to improve supply chain efficiency and decision-making for shipping logistics.
