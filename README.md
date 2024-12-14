@@ -13,7 +13,7 @@ Descriptive analysis revealed that 58.5% of violations occurred under bylaw 2849
 
 
 
-# PROJECT 2 Data Analytic Platform for Parking Tickets: Exploratory Analysis
+# Project 2 Data Analytic Platform for Parking Tickets: Exploratory Analysis
 <img width="1140" alt="gif2" src="https://github.com/user-attachments/assets/1f6b071f-c081-4074-821d-954a7025e10b">
 
 ## Project Overview
