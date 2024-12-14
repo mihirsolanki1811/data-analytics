@@ -1,5 +1,5 @@
 # data-analytics
-# PROJECT 1 Data Analytic Platform for Parking Tickets: Descriptive Analysis
+# Project 1 Data Analytic Platform for Parking Tickets: Descriptive Analysis
 <img width="1048" alt="Screenshot 2024-12-11 at 3 17 05 PM" src="https://github.com/user-attachments/assets/5dfae090-9c3c-42e0-b962-d37fbb6bcbad" />
 
 ## Overview  
@@ -65,6 +65,7 @@ Grant Amount per Candidate: Average grant distribution showed significant variat
 
 # Project Overview
 This project aims to predict expected shipping delays using AWS SageMaker Canvas, leveraging real-world data sourced from traffic internet systems. The data is ingested via a public subnet and securely stored in an AWS S3 bucket for further analysis. By building a machine learning model, the project seeks to improve supply chain efficiency and decision-making for shipping logistics.
+<img width="1350" alt="Screenshot 2024-12-13 at 8 44 36 PM" src="https://github.com/user-attachments/assets/33abdaa5-bef6-4602-b88e-001a9219a0c7" />
 
 # Dataset Details
 The dataset contains critical information for shipping delay prediction:
