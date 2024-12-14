@@ -61,6 +61,47 @@ Results
 The overall approval rate was computed for different professional levels, revealing higher approval rates for senior-level staff compared to entry-level candidates.
 Grant Amount per Candidate: Average grant distribution showed significant variation across departments, with the Research and Development team receiving the highest grants per candidate.
 
+# Project 4 Predicting Shipping Delays with AWS SageMaker Canvas
+
+# Project Overview
+This project aims to predict expected shipping delays using AWS SageMaker Canvas, leveraging real-world data sourced from traffic internet systems. The data is ingested via a public subnet and securely stored in an AWS S3 bucket for further analysis. By building a machine learning model, the project seeks to improve supply chain efficiency and decision-making for shipping logistics.
+
+# Dataset Details
+The dataset contains critical information for shipping delay prediction:
+
+X-Shipping Distance: Numeric values representing the distance covered along the X-axis.
+Y-Shipping Distance: Numeric values representing the distance covered along the Y-axis.
+Shipping Priority: Text labels categorizing shipment urgency (e.g., high, medium, low).
+Shipping Origin: Text values indicating the origin location of shipments.
+Product ID: Text values representing unique identifiers for shipped products.
+Order ID: Text values representing unique order identifiers.
+Expected Shipping Delays: Numeric values indicating actual delays in shipment delivery (target variable).
+
+# Methodology
+1) Data Ingestion
+
+Traffic internet data is collected via a public subnet and saved to an AWS S3 bucket for centralized storage.
+Security measures, including bucket versioning, encryption, and access controls, ensure data integrity and privacy.
+
+2) Data Exploration and Preparation
+SageMaker Canvas is used to explore and clean the dataset, addressing any missing or inconsistent values.
+Feature engineering is applied to improve model performance (e.g., encoding shipping priority, normalizing distances).
+
+3) Model Building with SageMaker Canvas
+A predictive model is developed in SageMaker Canvas to estimate expected shipping delays based on the provided features.
+The model leverages SageMaker's AutoML capabilities to automatically test and select the best-performing algorithm.
+
+4) Result Storage and Access
+Predictions are stored in AWS S3 in CSV and Parquet formats for easy access and downstream analysis.
+
+# Results and Insights
+The model accurately predicts expected shipping delays based on historical data.
+Insights can be used to:
+Optimize shipping routes to reduce delays.
+Adjust shipping priorities dynamically based on traffic conditions.
+Improve overall supply chain efficiency.
+
+
 
 
 
